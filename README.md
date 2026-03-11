@@ -1,4 +1,4 @@
-# 🚀 Contador React + Redux com CSS Dinâmico
+# 🚀 Contador React + Redux com Flux Pattern e CSS Dinâmico
 
 Este é o meu primeiro projeto profissional utilizando **React** e **Redux** para gerir o estado global da aplicação. O projeto consiste num contador funcional com funcionalidades avançadas de estilização.
 

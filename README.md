@@ -1,16 +1,22 @@
-# React + Vite
+# 🚀 Contador React + Redux com CSS Dinâmico
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o meu primeiro projeto profissional utilizando **React** e **Redux** para gerir o estado global da aplicação. O projeto consiste num contador funcional com funcionalidades avançadas de estilização.
 
-Currently, two official plugins are available:
+## ✨ Funcionalidades
+- **Incrementar e Decrementar:** Altera o valor do contador em tempo real.
+- **Botão Reset:** Volta o contador instantaneamente para zero.
+- **Cores Dinâmicas:** - 🔵 **Azul** para números positivos.
+  - 🔴 **Vermelho** para números negativos.
+  - ⚫ **Preto/Branco** para o zero.
+- **Layout Centralizado:** Interface limpa e organizada com CSS Flexbox.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tecnologias Utilizadas
+- [React](https://reactjs.org/)
+- [Redux](https://redux.js.org/)
+- [Vite](https://vitejs.dev/)
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS) (Flexbox e Seletores Condicionais)
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Como rodar o projeto
+1. Clone o repositório.
+2. Execute `npm install` para instalar as dependências.
+3. Execute `npm run dev` para iniciar o servidor local.

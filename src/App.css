@@ -1,0 +1,49 @@
+/*2. Separação de Responsabilidades CSS
+App.css: Cuida especificamente do visual do App.
+Contém as regras dos botões, do tamanho do número e das cores do contador.*/
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;    /* Centraliza os itens dentro do container */
+  justify-content: center;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.contador-texto {
+  font-size: 5rem; /* Aumentei um pouquinho para dar destaque */
+  font-weight: bold;
+  transition: color 0.3s ease;
+  margin: 20px 0; /* Espaçamento em cima e embaixo do número */
+}
+
+.positivo { color: #3b82f6; } /* Um azul mais moderno */
+.negativo { color: #ef4444; } /* Um vermelho mais vivo */
+.zero { color: #ffffff; }     /* Branco para aparecer no fundo escuro */
+
+.button-group {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.btn {
+  padding: 12px 24px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background-color: #333;
+  color: white;
+  transition: transform 0.1s;
+}
+
+.btn:active {
+  transform: scale(0.95); /* Efeito de clique */
+}
+
+.btn-reset {
+  background-color: #ffcc00;
+  color: #000;
+  font-weight: bold;
+}

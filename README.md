@@ -16,5 +16,5 @@ Este é o meu primeiro projeto profissional utilizando **React** e **Redux** par
 - [Vite](https://vitejs.dev/)
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS) (Flexbox e Seletores Condicionais)
 
-## 📦 Como visualizar projeto
+## 📦 Como visualizar o projeto
 https://contador-react-redux-snowy.vercel.app/

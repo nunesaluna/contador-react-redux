@@ -28,10 +28,12 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  justify-content: center; /* Centraliza na horizontal */
-  align-items: center;     /* Centraliza na vertical */
+  justify-content: center; /* Centraliza o container na horizontal */
+  align-items: center;     /* Centraliza o container na vertical */
   min-width: 320px;
   min-height: 100vh;
+  background-color: #242424; /* Adicionado para o fundo ser SEMPRE escuro */
+  overflow: hidden;         /* Evita barras de rolagem desnecessárias */
 }
 
 h1 {
@@ -64,4 +66,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+
